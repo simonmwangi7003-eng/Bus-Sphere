@@ -1,0 +1,109 @@
+@media (max-width: 980px) {
+  .site-header { padding: 0 4%; }
+  .announcement-bar { margin: 0 -4vw; }
+  .header-main { min-height: 66px; gap: 14px; }
+  .main-nav { gap: 14px; }
+  .theme-toggle-label { display: none; }
+  .account-menu-label { display: none; }
+  .home-hero { padding-left: 5%; padding-right: 5%; }
+  .hero-landscape { right: -4%; width: 54%; }
+  .search-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .results-layout { grid-template-columns: 190px 1fr; }
+  .bus-main { grid-template-columns: 1fr 1.2fr auto; }
+  .bus-features { grid-column: 2; grid-row: 2; }
+  .bus-price { grid-column: 3; grid-row: 1 / span 2; }
+  .benefits-section { gap: 30px; }
+  .benefit-cards { gap: 8px; }
+  .trip-detail-summary { grid-template-columns: 1fr 140px; gap: 15px; padding: 18px; }
+}
+@media (max-width: 700px) {
+  .site-header { padding: 0 18px; }
+  .site-header { z-index: 20; }
+  .announcement-bar { min-height: 31px; margin: 0 -18px; padding: 6px 10px; gap: 6px; font-size: 8px; }
+  .announcement-bar > span:first-child { display: none; }
+  .header-main { min-height: 64px; gap: 8px; }
+  .brand { font-size: 19px; }.brand-mark { width: 27px; height: 27px; }
+  .menu-toggle { display: block; order: 3; }
+  .header-actions { margin-left: auto; }
+  .account-link { font-size: 10px; }
+  .main-nav { display: none; position: fixed; top: 0; right: 0; bottom: 0; left: auto; z-index: 15; width: min(82vw, 330px); padding: 82px 24px 25px; background: white; box-shadow: -18px 0 44px #173b3026; flex-direction: column; align-items: flex-start; gap: 20px; }
+  .main-nav.open { display: flex; }
+  .nav-scrim.visible { display: block; position: fixed; inset: 0; z-index: 14; width: 100%; height: 100%; border: 0; background: rgba(20, 39, 30, .42); }
+  :root[data-theme="dark"] .main-nav { background: #1b2520; }
+  .nav-link { font-size: 12px; }
+  .container { width: calc(100% - 36px); }
+  .home-hero { min-height: 665px; padding: 47px 22px 265px; }
+  .home-copy h1 { font-size: 57px; }.home-copy p { font-size: 12px; }
+  .hero-landscape { top: auto; right: -15%; bottom: -2px; width: 115%; height: 330px; }
+  .hero-bus-art { right: 0; bottom: 25px; width: 94%; }
+  .route-search { width: calc(100% - 28px); margin-top: -27px; padding: 18px 15px; }
+  .search-title h2 { font-size: 15px; }
+  .search-grid { grid-template-columns: 1fr 1fr; gap: 9px; }
+  .search-grid > .button { grid-column: 1 / -1; }
+  .passenger-content { padding-top: 38px; }
+  .results-header { align-items: flex-start; flex-direction: column; }
+  .results-header h1 { font-size: 20px; }
+  .results-layout { grid-template-columns: 1fr; }
+  .trip-detail-summary { grid-template-columns: 1fr; }.trip-detail-fare { justify-items: start; grid-template-columns: repeat(3, auto); align-items: center; justify-content: start; gap: 10px; }.trip-detail-fare .button { grid-column: 1 / -1; }.trip-detail-columns { grid-template-columns: 1fr; }.trip-detail-columns .trip-detail-section + .trip-detail-section { border-left: 0; }.trip-detail-section { padding: 17px; }.trip-detail-route { gap: 8px; }.trip-detail-route strong { font-size: 19px; }.trip-detail-route span { font-size: 10px; }.trip-detail-route small { font-size: 9px; }
+  .filter-card { padding: 14px; }
+  .filter-card h2 { margin-bottom: 10px; }
+  .filter-group { padding: 10px 0 4px; }
+  .filter-option { display: inline-flex; margin: 7px 10px 7px 0; }
+  .bus-main { grid-template-columns: 1fr auto; gap: 12px 6px; }
+  .operator { grid-column: 1; grid-row: 1; }
+  .bus-price { grid-column: 2; grid-row: 1; }
+  .times { grid-column: 1 / -1; grid-row: 2; justify-content: flex-start; }
+  .bus-features { grid-column: 1; grid-row: 3; }
+  .bus-price .button { grid-column: 2; }
+  .bus-meta { font-size: 8px; }
+  .seat-panel { grid-template-columns: 1fr; }
+  .seat-layout { margin-left: 0; margin-right: 0; }.bus-driver { margin-left: 0; margin-right: 0; }
+  .seat-summary .button { width: auto; float: right; }
+  .seat-summary p, .seat-total { display: inline-block; margin-right: 10px; }
+  .benefits-section { grid-template-columns: 1fr; padding: 55px 0; }
+  .benefit-intro h2 { font-size: 33px; }
+  .benefit-cards { grid-template-columns: 1fr; }
+  .benefit-card { min-height: 0; display: grid; grid-template-columns: 45px 1fr; align-items: center; column-gap: 12px; padding: 14px; }
+  .benefit-icon { grid-row: 1 / span 2; margin: 0; }
+  .benefit-card h3 { margin-bottom: 4px; }
+  .placeholder-page { padding: 35px 0 55px; }
+  .placeholder-panel { padding: 19px; }
+  .admin-shell { grid-template-columns: 1fr; }
+  .admin-sidebar { padding: 10px 15px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .admin-sidebar-title { margin: 4px 0 7px; }
+  .admin-nav { display: flex; overflow-x: auto; gap: 5px; padding-bottom: 3px; }
+  .admin-nav a { flex: 0 0 auto; padding: 8px; }
+  .admin-main { padding: 25px 18px 44px; }
+  .admin-cards { grid-template-columns: repeat(2, 1fr); }
+  .site-footer { padding: 18px; flex-wrap: wrap; }
+  .footer-main { grid-template-columns: repeat(2, 1fr); gap: 23px 16px; padding: 26px 0; }
+  .footer-about { grid-column: 1 / -1; }
+  .footer-bottom { align-items: flex-start; flex-direction: column; justify-content: center; padding: 12px 0; gap: 8px; }
+  .destination-section { padding-top: 47px; padding-bottom: 48px; }
+  .destination-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .destination-photo { height: 125px; }
+  .storefront-heading { align-items: flex-start; flex-direction: column; gap: 11px; }
+  .storefront-heading h2 { font-size: 22px; }
+  .route-feature-grid, .operator-grid, .testimonial-grid, .travel-benefits .benefit-cards { grid-template-columns: 1fr; }
+  .route-feature { min-height: 125px; }
+  .featured-section, .travel-benefits, .faq-section { padding: 43px 0; }
+  .operator-section { padding-top: 45px; padding-bottom: 47px; }
+  .upcoming-section { padding-bottom: 48px; }
+  .upcoming-visual { min-height: 340px; }
+  .upcoming-visual::after { background: linear-gradient(90deg, rgba(234,243,235,.96), rgba(234,243,235,.72) 74%, rgba(234,243,235,.35)); }
+  .upcoming-visual-copy { padding: 25px 21px; }
+  .upcoming-visual-copy h2 { font-size: 27px; }
+  .upcoming-trip-row { grid-template-columns: 1fr; gap: 15px; padding-top: 25px; }
+  .upcoming-pills { grid-template-columns: 1fr; }
+  .testimonial-section { padding-top: 48px; padding-bottom: 50px; }
+  .faq-layout { grid-template-columns: 1fr; gap: 22px; }
+  .faq-intro h2 { font-size: 25px; }
+  .stories-page, .routes-page { padding-top: 35px; padding-bottom: 50px; }
+}
+@media (max-width: 390px) {
+  .home-hero { min-height: 700px; }
+  .field input, .field select { font-size: 11px; }
+  .bus-card { padding: 14px; }
+  .seat-layout { --seat-track: 36px; --aisle-track: 12px; gap: 5px; padding: 11px; }
+  .seat { width: var(--seat-track); }
+}

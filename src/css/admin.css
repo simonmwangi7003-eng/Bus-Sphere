@@ -1,0 +1,9 @@
+.admin-shell { display: grid; grid-template-columns: 215px minmax(0, 1fr); min-height: calc(100vh - 152px); }
+.admin-sidebar { padding: 25px 14px; border-right: 1px solid var(--line); background: #fff; }
+.admin-sidebar-title { padding: 0 10px; margin: 0 0 15px; color: #8a9890; font-size: 8px; font-weight: 700; letter-spacing: 1.1px; }
+.admin-nav { display: grid; gap: 3px; }.admin-nav a { padding: 10px; border-radius: 5px; color: #64776d; font-size: 10px; }.admin-nav a:hover, .admin-nav a.active { background: #edf4ee; color: var(--green); font-weight: 700; }
+.admin-main { min-width: 0; padding: 35px clamp(20px, 5vw, 68px) 60px; }
+.admin-main .page-heading { margin-bottom: 24px; }
+.admin-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 22px; }.admin-stat { padding: 17px; }.admin-stat span { display: block; color: #819087; font-size: 9px; }.admin-stat strong { display: block; margin: 9px 0 4px; font: 700 22px "Manrope", sans-serif; }.admin-stat small { color: #6e9a7e; font-size: 9px; }
+.admin-panel { margin-bottom: 17px; padding: 19px; }.admin-panel h2 { margin: 0 0 14px; font: 700 14px "Manrope", sans-serif; }
+.admin-main .data-table-wrap { margin-top: 15px; }
